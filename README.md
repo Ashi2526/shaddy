@@ -2,7 +2,7 @@
 
 Smart Human Activity Detection Using [YOLO](https://pjreddie.com/darknet/yolo/)
 
-![Alt text](https://github.com/vibhorkrishna/S.H.A.D.Y/blob/main/Screenshots/shady.PNG?raw=true)
+![Alt text](https://github.com/Ashi2526/S.H.A.D.Y/blob/main/Screenshots/shady.PNG?raw=true)
 
 This is a project to perform fall detection, vehicle crash detection and social distancing detection from CCTV cameras in real-time.
 
@@ -31,7 +31,7 @@ And that is why YOLO is powerful and fast.
 * Darknet: Neural network framework for YOLO
 ### Installation of above softwares
 You can follow the two part YouTube videos of [Augmented Startups](https://www.youtube.com/watch?v=5pYh1rFnNZs&ab_channel=AugmentedStartups)
-#### [Note-1: Darknet library gets updated daily so this code won't work for future versions of darknet. This code works for May 2020 - June 2020 version of [Darknet](https://github.com/AlexeyAB/darknet). So download that version of darknet otherwise you will get a lot of errors which would be very difficult to remove.]
+#### [Note-1: Darknet library gets updated daily so this code won't work for future versions of darknet. This code works for jan 2024 - June 2024 version of [Darknet](https://github.com/AlexeyAB/darknet). So download that version of darknet otherwise you will get a lot of errors which would be very difficult to remove.]
 #### [Note-2: If you face some errors check the comments of the video of [Augmented Startups](https://www.youtube.com/watch?v=5pYh1rFnNZs&ab_channel=AugmentedStartups). You will get the solutions for most of them there. Also download only that versions of the software that has been told in the video.]
 ### Usage
 After the above installation work is done and darknet libraries are working, place the python files inside [YOLO\darknet\build\darknet\x64]() folder.
@@ -56,7 +56,7 @@ Simple YOLO program for object detection.
 python Object_Detection.py
 ```
 ### Sample Output:
-![Alt text](https://github.com/vibhorkrishna/S.H.A.D.Y/blob/main/Screenshots/object.PNG?raw=true)
+![Alt text](https://github.com/Ashi2526/S.H.A.D.Y/blob/main/Screenshots/object.PNG?raw=true)
 ## Fall Detection
 ### Working
 We take the input video from a source and  divide the video into several frames. Now these frames are converted into black and white. On each frame a person is detected using YOLO. 
@@ -77,9 +77,9 @@ If the fall is detected in 20 frames of a video simultaneously then an alert is 
 python Fall_Detection.py
 ```
 ### Sample Output:
-![Alt text](https://github.com/vibhorkrishna/S.H.A.D.Y/blob/main/Screenshots/fall.PNG?raw=true)
+![Alt text](https://github.com/Ashi2526/S.H.A.D.Y/blob/main/Screenshots/fall.PNG?raw=true)
 ### Email Alert:
-![Alt text](https://github.com/vibhorkrishna/S.H.A.D.Y/blob/main/Screenshots/alert_fall.PNG?raw=true)
+![Alt text](https://github.com/Ashi2526/S.H.A.D.Y/blob/main/Screenshots/alert_fall.PNG?raw=true)
 
 ## Social Distancing Detection
 ### Working
@@ -93,7 +93,7 @@ All of the above process happens for a single frame. Now all of this is set in a
 python Social_Distance.py
 ```
 ### Sample Output:
-![Alt text](https://github.com/vibhorkrishna/S.H.A.D.Y/blob/main/Screenshots/social_distance.PNG?raw=true)
+![Alt text](https://github.com/Ashi2526/S.H.A.D.Y/blob/main/Screenshots/social_distance.PNG?raw=true)
 
 ## Vehicle Crash Detection
 ### Working
@@ -113,9 +113,9 @@ If the car crash is detected in 20 frames of a video simultaneously then an aler
 python Vehicle_Crash.py
 ```
 ### Sample Output:
-![Alt text](https://github.com/vibhorkrishna/S.H.A.D.Y/blob/main/Screenshots/crash.PNG?raw=true)
+![Alt text](https://github.com/Ashi2526/S.H.A.D.Y/blob/main/Screenshots/crash.PNG?raw=true)
 ### Email Alert:
-![Alt text](https://github.com/vibhorkrishna/S.H.A.D.Y/blob/main/Screenshots/alert_car.PNG?raw=true)
+![Alt text](https://github.com/Ashi2526/S.H.A.D.Y/blob/main/Screenshots/alert_car.PNG?raw=true)
 
 ## Project Deployment
 We have deployed our project using flask. When we run the below script, our website is hosted onto a local server and we can use that website to perform detections on videos.
@@ -127,25 +127,25 @@ python app.py
 ## SHADY Website
 
 ### Home Page
-![Alt text](https://github.com/vibhorkrishna/S.H.A.D.Y/blob/main/Screenshots/home.PNG?raw=true)
+![Alt text](https://github.com/Ashi2526/S.H.A.D.Y/blob/main/Screenshots/home.PNG?raw=true)
 ### Object Detection Page
-![Alt text](https://github.com/vibhorkrishna/S.H.A.D.Y/blob/main/Screenshots/object_detection.PNG?raw=true)
+![Alt text](https://github.com/Ashi2526/S.H.A.D.Y/blob/main/Screenshots/object_detection.PNG?raw=true)
 ### Fall Detection Page
-![Alt text](https://github.com/vibhorkrishna/S.H.A.D.Y/blob/main/Screenshots/fall_detection.PNG?raw=true)
+![Alt text](https://github.com/Ashi2526/S.H.A.D.Y/blob/main/Screenshots/fall_detection.PNG?raw=true)
 ### Social Distancing Detection Page
-![Alt text](https://github.com/vibhorkrishna/S.H.A.D.Y/blob/main/Screenshots/social_distancing_detection.PNG?raw=true)
+![Alt text](https://github.com/Ashi2526/S.H.A.D.Y/blob/main/Screenshots/social_distancing_detection.PNG?raw=true)
 ### Vehicle Crash Detection Page
-![Alt text](https://github.com/vibhorkrishna/S.H.A.D.Y/blob/main/Screenshots/vehicle_crash_detection.PNG?raw=true)
+![Alt text](https://github.com/Ashi2526/S.H.A.D.Y/blob/main/Screenshots/vehicle_crash_detection.PNG?raw=true)
 ### Object Detected Page
-![Alt text](https://github.com/vibhorkrishna/S.H.A.D.Y/blob/main/Screenshots/object_detected.PNG?raw=true)
+![Alt text](https://github.com/Ashi2526/S.H.A.D.Y/blob/main/Screenshots/object_detected.PNG?raw=true)
 ### Fall Detected Page
-![Alt text](https://github.com/vibhorkrishna/S.H.A.D.Y/blob/main/Screenshots/fall_detected.PNG?raw=true)
+![Alt text](https://github.com/Ashi2526/S.H.A.D.Y/blob/main/Screenshots/fall_detected.PNG?raw=true)
 ### Social Distancing Detected Page
-![Alt text](https://github.com/vibhorkrishna/S.H.A.D.Y/blob/main/Screenshots/social_distancing_detected.PNG?raw=true)
+![Alt text](https://github.com/Ashi2526/S.H.A.D.Y/blob/main/Screenshots/social_distancing_detected.PNG?raw=true)
 ### Vehicle Crash Detected Page
-![Alt text](https://github.com/vibhorkrishna/S.H.A.D.Y/blob/main/Screenshots/vehicle_crash_detected.PNG?raw=true)
+![Alt text](https://github.com/Ashi2526/S.H.A.D.Y/blob/main/Screenshots/vehicle_crash_detected.PNG?raw=true)
 ### Contact Us Page
-![Alt text](https://github.com/vibhorkrishna/S.H.A.D.Y/blob/main/Screenshots/contact_us.PNG?raw=true)
+![Alt text](https://github.com/Ashi2526/S.H.A.D.Y/blob/main/Screenshots/contact_us.PNG?raw=true)
 
 ## Directory and File Structure
 After installing darknet keep the github files according to this file structure
